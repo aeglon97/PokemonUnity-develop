@@ -3,7 +3,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class InteractBed : MonoBehaviour
+public class InteractObject : MonoBehaviour
 {
     public static string[] english;
     public static string[] spanish;
@@ -36,7 +36,7 @@ public class InteractBed : MonoBehaviour
     {
         if (PlayerMovement.player.setCheckBusyWith(this.gameObject))
         {
-            if (thisNPC != null)
+            /*if (thisNPC != null)
             {
                 int direction;
                 //calculate player's position relative to this npc's and set direction accordingly.
@@ -60,17 +60,18 @@ public class InteractBed : MonoBehaviour
                     direction = 0;
                 }
                 thisNPC.setDirection(direction);
-            }
+            }*/
 
             //start of interaction
-            Dialog.drawDialogBox();
             string thisEng = "";
             string thisSpan = "";
             foreach (string word in dictHandler.getEnglish())
             {
+                print(word);
                 if (engDialog.Contains(word))
                 {
                     thisEng = word;
+                    Debug.Log("thisEng: " + thisEng);
                 }
             }
 
@@ -79,10 +80,12 @@ public class InteractBed : MonoBehaviour
                 if (spanDialog.Contains(word))
                 {
                     thisSpan = word;
+                    Debug.Log("thisSpan: " + thisSpan);
                 }
             }
 
             Dialog.drawDialogBox();
+
             if (dictHandler.getDict().ContainsKey(thisEng))
             {
                 yield return StartCoroutine(Dialog.drawText(spanDialog));

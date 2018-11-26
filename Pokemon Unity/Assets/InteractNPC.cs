@@ -17,21 +17,21 @@ public class InteractNPC : MonoBehaviour
     private DialogBoxHandler Dialog;
 
     private NPCHandler thisNPCHandler;
+    private DictionaryHandler dictHandler;
+
     private bool deactivateOnFinish = false;
 
     private int eventTreeIndex = 0;
     private int currentEventIndex = 0;
 
-    public static string[] english = { "looking for", "so amazing", "walking", "door", "parents", "I don't like", "the school",
-                                        "the doctors", "the city"};
-    public static string[] spanish = { "buscando", "muy genial", "caminando", "puerta", "padres", "no me gusta", "la escuela",
-                                        "los doctores", "la ciudad"};
+    public static string[] english;
+    public static string[] spanish;
     public string engDialog;
     public string spanDialog;
 
     private bool hasSwitched = false;
 
-    private DictionaryHandler dictHandler;
+    
 
     void Awake()
     {
@@ -268,8 +268,7 @@ public class InteractNPC : MonoBehaviour
             case (CustomEventDetails.CustomEventType.Dialog):
                 string thisEng = "";
                 string thisSpan = "";
-                print(engDialog);
-                foreach (string word in english)
+                foreach (string word in dictHandler.getEnglish())
                 {
                     if (engDialog.Contains(word))
                     {
@@ -277,7 +276,7 @@ public class InteractNPC : MonoBehaviour
                     }
                 }
 
-                foreach (string word in spanish)
+                foreach (string word in dictHandler.getSpanish())
                 {
                     if (spanDialog.Contains(word))
                     {
@@ -289,101 +288,43 @@ public class InteractNPC : MonoBehaviour
 
                 //for (int i = 0; i < english.Length; i++)
                 //{
-                    if (dictHandler.getDict().ContainsKey(thisEng))
-                    {
-                        yield return StartCoroutine(Dialog.drawText(spanDialog));
-                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                        {
-                            yield return null;
-                        }
-                        Dialog.undrawDialogBox();
-                    }
-                    else
-                    {
-                        yield return StartCoroutine(Dialog.drawText(engDialog));
-                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                        {
-                            yield return null;
-                        }
-                        Dialog.undrawDialogBox();
-                        Dialog.drawDialogBox();
-                        yield return StartCoroutine(Dialog.drawText(spanDialog));
-                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                        {
-                            yield return null;
-                        }
-                        Dialog.undrawDialogBox();
-
-                        for (int i = 0; i < english.Length; i++)
-                        {
-                            if (!dictHandler.getDict().ContainsKey(thisEng))
-                            {
-                                dictHandler.addToDict(thisEng, thisSpan);
-                            }
-                        }
-                        
-                        print("Dictionary:");
-                        dictHandler.printDict();
-                    }
-                //}
-                
-
-
-                /*for (int i = 0; i < currentEvent.strings.Length; i++)
+                if (dictHandler.getDict().ContainsKey(thisEng))
                 {
-                    if (currentEvent.bool0 && i > 0)
-                    {
-                        //if it contains english[0]
-                        if (currentEvent.strings[i].Contains(english[0]))
-                        {
-                            yield return Dialog.StartCoroutine("scrollText", currentEvent.float0);
-                            yield return StartCoroutine(Dialog.drawTextSilent("has english"));
-                        }
-                        yield return Dialog.StartCoroutine("scrollText", currentEvent.float0);
-                        yield return StartCoroutine(Dialog.drawTextSilent(currentEvent.strings[i]));
-                    }
-                    else
-                    {
-                        Dialog.drawDialogBox();
-                        yield return StartCoroutine(Dialog.drawText(currentEvent.strings[i]));
-                    }
-                    if (i < currentEvent.strings.Length - 1)
-                    {
-                        if (!currentEvent.bool1)
-                        {
-                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                            {
-                                yield return null;
-                            }
-                        }
-                        else yield return new WaitForSeconds(3);
-                    }
-                }*/
-
-
-                //-----------------------------------------------------------------------
-                /*if (nextEvent != null)
-                {
-                    if (nextEvent.eventType != CustomEventDetails.CustomEventType.Choice)
-                    {
-                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                        {
-                            yield return null;
-                        }
-                        if (!EventRequiresDialogBox(nextEvent.eventType))
-                        {
-                            Dialog.undrawDialogBox();
-                        } // do not undraw the box if the next event needs it
-                    }
-                }
-                else
-                {
+                    yield return StartCoroutine(Dialog.drawText(spanDialog));
                     while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
                     {
                         yield return null;
                     }
                     Dialog.undrawDialogBox();
-                }*/
+                }
+                else
+                {
+                    yield return StartCoroutine(Dialog.drawText(engDialog));
+                    while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                    {
+                        yield return null;
+                    }
+                    Dialog.undrawDialogBox();
+                    Dialog.drawDialogBox();
+                    yield return StartCoroutine(Dialog.drawText(spanDialog));
+                    while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                    {
+                        yield return null;
+                    }
+                    Dialog.undrawDialogBox();
+
+                    for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                    {
+                        if (!dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            dictHandler.addToDict(thisEng, thisSpan);
+                        }
+                    } 
+                }
+                print("Dictionary size: ");
+                print(dictHandler.getDict().Count);
+                print("Dictionary:");
+                dictHandler.printDict();
                 break;
 
             case (CustomEventDetails.CustomEventType.Choice):

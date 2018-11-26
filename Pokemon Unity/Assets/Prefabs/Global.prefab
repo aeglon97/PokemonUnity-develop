@@ -2452,7 +2452,7 @@ GameObject:
   - component: {fileID: 114865604408930702}
   - component: {fileID: 114798672690935450}
   - component: {fileID: 82420189953210298}
-  - component: {fileID: 114215457142416402}
+  - component: {fileID: 114111489214566794}
   m_Layer: 0
   m_Name: GUI
   m_TagString: Untagged
@@ -48278,6 +48278,49 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: c
+--- !u!114 &114111489214566794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075411689222554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1244ffa621f02449ba7797f94380a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  english:
+  - looking for
+  - so amazing
+  - the computer
+  - walking
+  - door
+  - parents
+  - I don't like
+  - the school
+  - the doctors
+  - the city
+  - bed
+  - the fridge
+  - video games
+  - the TV
+  - This bookshelf
+  spanish:
+  - buscando
+  - muy genial
+  - la computadora
+  - caminando
+  - puerta
+  - padres
+  - no me gusta
+  - la escuela
+  - los doctores
+  - la ciudad
+  - cama
+  - la nevera
+  - videojuegos
+  - "la televisi\xF3n"
+  - "Esta estanter\xEDa"
 --- !u!114 &114112377914908764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51944,17 +51987,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114215457142416402
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1075411689222554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1244ffa621f02449ba7797f94380a84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114216002165724444
 MonoBehaviour:
   m_ObjectHideFlags: 1

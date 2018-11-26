@@ -2770,7 +2770,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 176174799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a320a2e04b841bf469660ea08182cb1e, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   engDialog: No time to sleep in my bed.
@@ -3002,11 +3002,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 198244205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fea5deab1a840824995c6ddae17c8bf6, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engDialog: This bookshelf has lots of books in it.
-  spanDialog: "Esta estanter\xEDa has lots of books in it."
+  engDialog: This bookshelf has a lot of books.
+  spanDialog: "Esta estanter\xEDa has a lot of books."
 --- !u!1 &199249242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3312,6 +3312,43 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
   m_PrefabInternal: {fileID: 1514242571}
+--- !u!114 &215589221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215589219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aafe9398a95f1949b7a14b90ad7b498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  busyOnCall: 1
+  interactEventTrees:
+  - treeName: 
+    events:
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - 
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+  bumpEventTrees: []
+  internalEventTrees: []
+  demoEventTrees: []
+  engDialog: the computer
+  spanDialog: la computadora
 --- !u!1 &216230310
 GameObject:
   m_ObjectHideFlags: 0
@@ -10485,7 +10522,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 779158367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe8b5708520ff646b8312b4ed0f2637, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   engDialog: No time to look at memes on the computer.
@@ -13185,6 +13222,23 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &980267241 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 108010, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
+  m_PrefabInternal: {fileID: 1965251369}
+--- !u!114 &980267242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 980267241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: Your mom never let you watch anything on\the TV.
+  spanDialog: "Your mom never let you watch anything on\\la televisi\xF3n."
 --- !u!1 &980383193
 GameObject:
   m_ObjectHideFlags: 0
@@ -17732,7 +17786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289047413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cef861f904ed7b4f8c3e3b76f7e824b, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   engDialog: My Nintendo Switch! No time for video games.
@@ -20417,7 +20471,8 @@ Prefab:
       propertyPath: m_Name
       value: InteriorRetroTV (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114763021925219172, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1430465840
@@ -21526,6 +21581,21 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 380493181}
     m_Modifications:
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: interactEventTrees.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: interactEventTrees.Array.data[0].events.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: interactEventTrees.Array.data[0].events.Array.data[0].strings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -21562,7 +21632,36 @@ Prefab:
       propertyPath: m_Name
       value: NPC_Mom
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 154478, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460608, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+      propertyPath: npcSpriteName
+      value: npcAdult_f
+      objectReference: {fileID: 0}
+    - target: {fileID: 21256192, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: fe807cda1c6495c419d56f15cd88e025,
+        type: 3}
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: interactEventTrees.Array.data[0].events.Array.data[0].eventType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: interactEventTrees.Array.data[0].events.Array.data[0].strings.Array.data[0]
+      value: I told you to get a job, why are you still\in my house?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+        type: 2}
+      propertyPath: busyOnCall
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1519236094
@@ -21904,7 +22003,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1539973662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae435b25b3bbc3949954030a043b5a27, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   engDialog: I'm not hungry now, let's close the fridge.
@@ -23927,7 +24026,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 78
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalPosition.y
@@ -23935,7 +24034,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -70
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalRotation.x
@@ -29813,7 +29912,8 @@ Prefab:
       propertyPath: m_Name
       value: InteriorRetroTV
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114763021925219172, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1967172083
@@ -31661,6 +31761,23 @@ MonoBehaviour:
   examineText: 
   lockedExamineText: 
   fadeTex: {fileID: 0}
+--- !u!1 &2091042216 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 108010, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
+  m_PrefabInternal: {fileID: 1429144262}
+--- !u!114 &2091042217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091042216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: There's nothing playing on the TV.
+  spanDialog: "There's nothing playing on la televisi\xF3n."
 --- !u!1 &2097992243
 GameObject:
   m_ObjectHideFlags: 0
