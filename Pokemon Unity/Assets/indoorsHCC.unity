@@ -408,11 +408,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 89344726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cef861f904ed7b4f8c3e3b76f7e824b, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   engDialog: My Nintendo Switch! No time for video games.
   spanDialog: My Nintendo Switch! No time for videojuegos.
+--- !u!1 &123366345 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: f27a9d6ab4f8ece419fdd6df21e13447, type: 3}
+  m_PrefabInternal: {fileID: 1685779585}
+--- !u!114 &123366346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123366345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: I'm not hungry yet. Time to close the fridge.
+  spanDialog: I'm not hungry yet. Time to close la nevera
 --- !u!1001 &143123598
 Prefab:
   m_ObjectHideFlags: 0
@@ -675,6 +692,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 237511675}
+  - component: {fileID: 237511676}
   m_Layer: 0
   m_Name: interiorBed
   m_TagString: Untagged
@@ -698,6 +716,19 @@ Transform:
   m_Father: {fileID: 1227374927}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &237511676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237511674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: No time to sleep in the bed.
+  spanDialog: No time to sleep in la cama.
 --- !u!1 &242899203
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +850,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1244ffa621f02449ba7797f94380a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  english:
+  - looking for
+  - so amazing
+  - the computer
+  - walking
+  - door
+  - parents
+  - I don't like
+  - the school
+  - the doctors
+  - the city
+  - bed
+  - the fridge
+  - video games
+  - the TV
+  - This bookshelf
+  spanish:
+  - buscando
+  - muy genial
+  - la computadora
+  - caminando
+  - puerta
+  - padres
+  - no me gusta
+  - la escuela
+  - los doctores
+  - la ciudad
+  - cama
+  - la nevera
+  - videojuegos
+  - "la televisi\xF3n"
+  - "Esta estanter\xEDa"
 --- !u!1 &423825600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1374,23 @@ Transform:
   m_Father: {fileID: 1365534993}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &648124608 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 108010, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
+  m_PrefabInternal: {fileID: 1029770465}
+--- !u!114 &648124609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648124608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: There's nothing playing on the TV.
+  spanDialog: "There's nothing playing on la televisi\xF3n."
 --- !u!1 &681931005 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1702034241492492, guid: b29bc2dec560e9a408a7645a4e4855ed,
@@ -1327,6 +1407,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1244ffa621f02449ba7797f94380a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  english:
+  - looking for
+  - so amazing
+  - the computer
+  - walking
+  - door
+  - parents
+  - I don't like
+  - the school
+  - the doctors
+  - the city
+  - bed
+  - the fridge
+  - video games
+  - the TV
+  - This bookshelf
+  spanish:
+  - buscando
+  - muy genial
+  - la computadora
+  - caminando
+  - puerta
+  - padres
+  - no me gusta
+  - la escuela
+  - los doctores
+  - la ciudad
+  - cama
+  - la nevera
+  - videojuegos
+  - "la televisi\xF3n"
+  - "Esta estanter\xEDa"
 --- !u!1 &691068223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,6 +1862,11 @@ Prefab:
       propertyPath: interactEventTrees.Array.data[0].events.Array.data[0].eventType
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 21256192, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: fe807cda1c6495c419d56f15cd88e025,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
   m_IsPrefabParent: 0
@@ -2021,7 +2138,8 @@ Prefab:
       propertyPath: m_Name
       value: InteriorRetroTV (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114763021925219172, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1029770466 stripped
@@ -2635,6 +2753,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1258362921}
   m_Mesh: {fileID: 4300000, guid: 0ac99c28dbd236b4ea74e0a410eee593, type: 3}
+--- !u!1 &1262141209 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 108010, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
+  m_PrefabInternal: {fileID: 1471429882}
+--- !u!114 &1262141210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262141209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: Your mom never let you watch anything on the TV.
+  spanDialog: "Your mom never let you watch anything on la televisi\xF3n."
 --- !u!1001 &1359626303
 Prefab:
   m_ObjectHideFlags: 0
@@ -2803,7 +2938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 33
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2921,7 +3056,8 @@ Prefab:
       propertyPath: m_Name
       value: InteriorRetroTV
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114763021925219172, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8c224899b6621bd4581cdf0ec2d65077, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1471429883 stripped
@@ -4070,11 +4206,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2094163176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe8b5708520ff646b8312b4ed0f2637, type: 3}
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engDialog: No time to look at memes on the computer
-  spanDialog: No time to look at memes on la computadora
+  engDialog: No time to look at memes on the computer.
+  spanDialog: No time to look at memes on la computadora.
 --- !u!1 &2102943537
 GameObject:
   m_ObjectHideFlags: 0

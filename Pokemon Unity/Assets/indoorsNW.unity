@@ -3347,8 +3347,8 @@ MonoBehaviour:
   bumpEventTrees: []
   internalEventTrees: []
   demoEventTrees: []
-  engDialog: the computer
-  spanDialog: la computadora
+  engDialog: Now that you just got out of your bed, get\out of my house.
+  spanDialog: Now that you just got out of your cama, get\out of my house.
 --- !u!1 &216230310
 GameObject:
   m_ObjectHideFlags: 0
@@ -10352,23 +10352,6 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
   m_PrefabInternal: {fileID: 1471319454}
---- !u!1 &768676144 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: 91535cf7c820f924d87eae5a1f39fc5c, type: 3}
-  m_PrefabInternal: {fileID: 2115066395}
---- !u!114 &768676145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 768676144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e21af1003a84bf42914534c4016365d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  engDialog: Looks like the trash has just been\n taken out.
-  spanDialog: Looks like la basura has just been\n taken out.
 --- !u!1 &777879584
 GameObject:
   m_ObjectHideFlags: 0
@@ -10707,6 +10690,23 @@ SpriteRenderer:
   m_Size: {x: 1.375, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &805565974 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 91535cf7c820f924d87eae5a1f39fc5c, type: 3}
+  m_PrefabInternal: {fileID: 2115066395}
+--- !u!114 &805565975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805565974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc883b10d644bb5478c4b21ba2f908a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engDialog: Looks like your mom just took out the trash.
+  spanDialog: Looks like your mom just took out la basura.
 --- !u!1 &811455553
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,7 +13618,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114111489214566794, guid: b29bc2dec560e9a408a7645a4e4855ed, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b29bc2dec560e9a408a7645a4e4855ed, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1005962030
@@ -19397,6 +19398,56 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &1365177148 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1075411689222554, guid: b29bc2dec560e9a408a7645a4e4855ed,
+    type: 2}
+  m_PrefabInternal: {fileID: 1005128859}
+--- !u!114 &1365177150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1365177148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1244ffa621f02449ba7797f94380a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  english:
+  - looking for
+  - so amazing
+  - the computer
+  - walking
+  - door
+  - parents
+  - I don't like
+  - the school
+  - the doctors
+  - the city
+  - bed
+  - the fridge
+  - video games
+  - the TV
+  - This bookshelf
+  - the trash
+  spanish:
+  - buscando
+  - "tan incre\xEDble"
+  - la computadora
+  - caminando
+  - puerta
+  - padres
+  - no me gusta
+  - la escuela
+  - los doctores
+  - la ciudad
+  - cama
+  - la nevera
+  - videojuegos
+  - "la televisi\xF3n"
+  - "Esta estanter\xEDa"
+  - la basura
 --- !u!1 &1369028152
 GameObject:
   m_ObjectHideFlags: 0
@@ -24034,7 +24085,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 33
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4168307147198506, guid: 7da40ed5224fd43409db25f7dc33e481, type: 2}
       propertyPath: m_LocalRotation.x
