@@ -9,7 +9,7 @@ public class MenuHandler : MonoBehaviour {
     public Button[] buttons;
     private DictionaryHandler dictHandler;
 
-    void Start () {
+    public void Start () {
         dictHandler = GameObject.Find("GUI").GetComponent<DictionaryHandler>();
 
         if (transform.GetComponent<DictionaryHandler>() != null)
@@ -17,14 +17,11 @@ public class MenuHandler : MonoBehaviour {
             dictHandler = transform.GetComponent<DictionaryHandler>();
         }
 
+        int i = 0;
 
-       
-        /*button.onClick.AddListener(() => OnButtonClick(1+1
-       print("lol"));*/
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+	public void Update () {
 		if (Input.GetKeyDown(KeyCode.P))
         {
             open = !open;
@@ -35,8 +32,24 @@ public class MenuHandler : MonoBehaviour {
         foreach (KeyValuePair<string, string> entry in dictHandler.getDict())
         {
             buttons[i].GetComponent<Button>().gameObject.SetActive(true);
-            buttons[i].GetComponentInChildren<Text>().text = entry.Value;
+            //buttons[i].GetComponent<Button>().onClick.AddListener(() => toggleLang(false, entry, i));
             i++;
         }        
+    }
+
+    public void toggleLang(bool isEnglish, KeyValuePair<string, string> entry, int i)
+    {
+        buttons[i].GetComponentInChildren<Text>().text = "fuck";
+        Debug.Log("yes");
+        if (!isEnglish)
+        {
+            //text.text = entry.Key;
+        }
+        else
+        {
+            Debug.Log(2);
+            //text.text = entry.Value;
+        }
+        isEnglish = !isEnglish;
     }
 }

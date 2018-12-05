@@ -165,7 +165,7 @@ public class MainMenuHandler : MonoBehaviour {
 
 	private IEnumerator gotoGender(){
 		Dialog.drawDialogBox();
-		yield return Dialog.StartCoroutine("drawText","Are you a boy?\nOr are you a girl?");
+		yield return Dialog.StartCoroutine("drawText","Do you want to play as a boy?\nOr as a girl?");
 		while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 		yield return Dialog.StartCoroutine("scrollText",0.2f);
 		yield return Dialog.StartCoroutine("drawTextSilent","Won't you please tell me?");
@@ -174,17 +174,17 @@ public class MainMenuHandler : MonoBehaviour {
 		yield return StartCoroutine(Dialog.choiceNavigate());
 		int chosenIndexa = Dialog.chosenIndex;
 		if(chosenIndexa == 1){ //boy
-			playerName = "Ethan"; //john
+			playerName = "Rodrigo"; //john
 			gender = true;
 			Dialog.undrawChoiceBox();	
 		} else if(chosenIndexa == 0) { //girl
-			playerName = "Lyra"; //jane
+			playerName = "Marcela"; //jane
 			gender = false;
 			Dialog.undrawChoiceBox();
 		}
 		if(gender){
 			Dialog.drawDialogBox();
-			yield return Dialog.StartCoroutine("drawText","So, you're a boy then?");
+			yield return Dialog.StartCoroutine("drawText","So, you want to play as a boy then?");
 			Dialog.drawChoiceBox(new string[]{"Yes","No"});
 			yield return new WaitForSeconds(0.2f);
 			yield return StartCoroutine(Dialog.choiceNavigate());
@@ -198,7 +198,7 @@ public class MainMenuHandler : MonoBehaviour {
 		}
 		else {
 			Dialog.drawDialogBox();
-			yield return Dialog.StartCoroutine("drawText","So, you're a girl then?");
+			yield return Dialog.StartCoroutine("drawText","So, you want to play as a girl then?");
 			Dialog.drawChoiceBox(new string[]{"Yes","No"});
 			yield return new WaitForSeconds(0.2f);
 			yield return StartCoroutine(Dialog.choiceNavigate());
@@ -265,102 +265,96 @@ public class MainMenuHandler : MonoBehaviour {
 				GlobalVariables.global.SetRPCDetails("Starting a new game...");
 				GlobalVariables.global.UpdatePresence();
 				Dialog.drawDialogBox();
-				yield return Dialog.StartCoroutine("drawText","...\n...");
+				yield return Dialog.StartCoroutine("drawText","Bienvenido al mundo de Pokémon! Me llamo-");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 				System.TimeSpan now = System.DateTime.Now.TimeOfDay;
 
-				if ((now >= new System.TimeSpan(4, 0, 0)) && (now < new System.TimeSpan(10, 59, 0)))
-				{ //morning
-					yield return Dialog.StartCoroutine("drawText","Yaaaaawn...\n...");
+                yield return StartCoroutine(ScreenFade.main.Fade(false, 0f));
+                transform.Find("OpeningLecture").Find("Background").GetComponent<GUITexture>().color = new UnityEngine.Color(0.5f, 0.5f, 0.5f);
+                transform.Find("OpeningLecture").Find("Professor").gameObject.SetActive(true);
+                BgmHandler.main.PlayMain(professorMusic, 0, true);
+                yield return StartCoroutine(ScreenFade.main.Fade(true, 0.4f));
+
+                /*if ((now >= new System.TimeSpan(4, 0, 0)) && (now < new System.TimeSpan(10, 59, 0)))
+				{ //morning*/
+                yield return Dialog.StartCoroutine("drawText", "Oh, whoops! I’m getting ahead of myself\nhere. Welcome to the world of Pokémon!");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 					Dialog.drawDialogBox();
-					yield return Dialog.StartCoroutine("drawText","Huh? It's already become so\nbright outside!");
+					yield return Dialog.StartCoroutine("drawText", "My name is Professor Mesquite. This world\nis full of creatures called Pokemon.");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				}
-				else if ((now >= new System.TimeSpan(11, 0, 0)) && (now < new System.TimeSpan(15, 59, 0)))
+				//}
+				/*else if ((now >= new System.TimeSpan(11, 0, 0)) && (now < new System.TimeSpan(15, 59, 0)))
 				{ //daytime
 					yield return Dialog.StartCoroutine("drawText","Yaaaaawn...\n...");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 					Dialog.drawDialogBox();
 					yield return Dialog.StartCoroutine("drawText","Huh? What?! Is it already that late?!\nOh no! I overslept!");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				}
-				else if ((now >= new System.TimeSpan(16, 0, 0)) && (now < new System.TimeSpan(18, 59, 0)))
-				{ //twilight
+				//}
+				//else if ((now >= new System.TimeSpan(16, 0, 0)) && (now < new System.TimeSpan(18, 59, 0)))
+				//{ //twilight
 					yield return Dialog.StartCoroutine("drawText","Hmm. Looks like the sun is descending\nin the sky...");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 					Dialog.drawDialogBox();
 					yield return Dialog.StartCoroutine("drawText","...So this would be what is called\n\"twilight,\" wouldn't it?");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				}
-				else if ((now >= new System.TimeSpan(0, 0, 0)) && (now < new System.TimeSpan(3, 59, 0)))
-				{ //midnight
+				//}
+				//else if ((now >= new System.TimeSpan(0, 0, 0)) && (now < new System.TimeSpan(3, 59, 0)))
+				//{ //midnight
 					yield return Dialog.StartCoroutine("drawText","Yaaaaawn...\n...");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 					Dialog.drawDialogBox();
 					yield return Dialog.StartCoroutine("drawText","Huh? A guest?\nAt this hour?");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				}
-				else
-				{ //night, or failsafe if the time is somehow not working
+				//}
+				//else
+				//{ //night, or failsafe if the time is somehow not working
 					yield return Dialog.StartCoroutine("drawText","Hmm... Intresting...\n...");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 					Dialog.drawDialogBox();
 					yield return Dialog.StartCoroutine("drawText","Huh? Oh! Excuse me, sorry!\nI was just reading this book here.");
 					while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				}
+				//}*/
 
 				Dialog.undrawDialogBox();
-				yield return StartCoroutine(ScreenFade.main.Fade(false, 0f));
-				transform.Find("OpeningLecture").Find("Background").GetComponent<GUITexture>().color = new UnityEngine.Color(0.5f,0.5f,0.5f);
-				transform.Find("OpeningLecture").Find("Professor").gameObject.SetActive(true);
-				BgmHandler.main.PlayMain(professorMusic, 0, true);
-				yield return StartCoroutine(ScreenFade.main.Fade(true, 0.4f));
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","Sorry to keep you waiting!");
+				yield return Dialog.StartCoroutine("drawText","Some battle with them, some befriend them,\nand others love everything about them!");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","Welcome to the world of Pokémon!");
+
+                yield return Dialog.StartCoroutine("drawText", "As for me, I enjoy researching Pokemon.\nThe goal of this game is to provide players");
+                while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                yield return Dialog.StartCoroutine("scrollText", 0.2f);
+                yield return Dialog.StartCoroutine("drawTextSilent", "a means of language immersion without");
+                while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                yield return Dialog.StartCoroutine("scrollText", 0.2f);
+                yield return Dialog.StartCoroutine("drawTextSilent", "leaving their comfort zones.");
+                while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                Dialog.drawDialogBox();
+
+				yield return Dialog.StartCoroutine("drawText","The words in this game will eventually turn\nfrom English to Spanish.");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","My name is Professor Oak.");
+				yield return Dialog.StartCoroutine("drawText","You can go into the menu at any time to\nreview the words you've been exposed to!");
+                while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                Dialog.drawDialogBox();
+
+				yield return Dialog.StartCoroutine("drawText","At the end, a short quiz on all the words\nyou learned will be given.");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","But everyone calls me the Pokémon\nProfessor.");
+				yield return Dialog.StartCoroutine("drawText","Make sure to examine everything you see,\nincluding people and objects inside houses!");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","Before we go any further, I'd like to \ntell you a few things you should");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				yield return Dialog.StartCoroutine("scrollText",0.2f);
-				yield return Dialog.StartCoroutine("drawTextSilent","know about this world!");
+				yield return Dialog.StartCoroutine("drawText","Anyways, it's time to begin your adventure.\nThe game is quite short for now, but enjoy!");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","This world is widely inhabited by\ncreatures known as Pokémon.");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				Dialog.drawDialogBox();
-
-				yield return Dialog.StartCoroutine("drawText","We humans live alongside Pokemon\nas friends.");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				Dialog.drawDialogBox();
-
-				yield return Dialog.StartCoroutine("drawText","At times we play together, and at\nother times we work together.");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				Dialog.drawDialogBox();
-
-				yield return Dialog.StartCoroutine("drawText","Some people use their Pokemon to\nbattle and develop closer bonds");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				yield return Dialog.StartCoroutine("scrollText",0.2f);
-				yield return Dialog.StartCoroutine("drawTextSilent","with them.");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				Dialog.drawDialogBox();
-				
 				yield return Dialog.StartCoroutine("drawText","Now, why don't you tell me a little bit\nabout yourself?");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				yield return gotoGender();
@@ -378,11 +372,7 @@ public class MainMenuHandler : MonoBehaviour {
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 
-				yield return Dialog.StartCoroutine("drawText","Dreams! Adventure!\nLet's go to the world of Pokemon!");
-				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
-				Dialog.drawDialogBox();
-
-				yield return Dialog.StartCoroutine("drawText","I'll see you later!");
+				yield return Dialog.StartCoroutine("drawText","Adios- argh, I mean goodbye!");
 				while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")){yield return null;}
 				Dialog.drawDialogBox();
 				yield return StartCoroutine(ScreenFade.main.Fade(false, 0.4f));
