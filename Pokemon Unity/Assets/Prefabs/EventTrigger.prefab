@@ -38,8 +38,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154962}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.07, y: 0, z: -2.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 473844}
@@ -82,8 +82,341 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f736fc58a6ed37f41b1cfd3678d7c8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  busyOnCall: 1
   interactEventTrees: []
-  bumpEventTrees: []
+  bumpEventTrees:
+  - treeName: 
+    events:
+    - eventType: 10
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 8
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: Rival_Initial
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 154962}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+  - treeName: Rival Encounter
+    events:
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: 
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 4
+      float0: 3
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - You don't stand a chance, {P!
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 11
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 9
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 2
+      string0: Battle_RivalInitial
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: 
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings:
+      - Grr...
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 8
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Grr...
+      object0: {fileID: 154962}
+      object1: {fileID: 0}
+      sound: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 0
+      string0: 
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings:
+      - Grr...
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+  - treeName: Rival Beats You
+    events:
+    - eventType: 9
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 1
+      string0: Battle_RivalInitial
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings:
+      - Alright, now that I tought you why you \need to pay attention, I'll be going.
+      - I'm gonna need you to move though.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 1
+      string0: Rival_Intital_Result
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings:
+      - Now that you've learned why you need \to pay attention, I'll be going.
+      - I'm gonna need you to move though.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 1
+      float0: 1
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 1
+      string0: Rival_Intital_Result
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 1
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 1
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 1
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 2
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 6
+      float0: 2
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 1
+      logic: 0
+      smOptions: 0
+      int0: 10
+      float0: 2
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 8
+      dir: 1
+      logic: 0
+      smOptions: 0
+      int0: 10
+      float0: 2
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 8
+      dir: 1
+      logic: 0
+      smOptions: 0
+      int0: 10
+      float0: 2
+      string0: Rival_Intital_Result
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings:
+      - Yeah, hopefully you'll pay attention now.
+      object0: {fileID: 154962}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+  internalEventTrees: []
+  demoEventTrees: []
+  english:
+  - video games
+  spanish:
+  - videojuegos
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

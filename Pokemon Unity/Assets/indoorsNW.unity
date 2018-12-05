@@ -3212,7 +3212,7 @@ Transform:
   m_Children:
   - {fileID: 155914037}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &198244209
 MonoBehaviour:
@@ -3522,12 +3522,251 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   busyOnCall: 1
+  counter: 0
   interactEventTrees: []
-  bumpEventTrees: []
+  bumpEventTrees:
+  - treeName: 1
+    events:
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 4
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1130760250}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1585065577}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 4
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1763339558}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 2
+      dir: 3
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1763339558}
+      object1: {fileID: 1130760250}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 1
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1130760250}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 3
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 1
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1763339558}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1585065577}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 2
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 1585065577}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 11
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 1
+      ints: 
+      strings: []
+      object0: {fileID: 452924191}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 1
+      ints: 
+      strings: []
+      object0: {fileID: 452924191}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 1
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 1
+      ints: 
+      strings: []
+      object0: {fileID: 1763339558}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 2
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 4
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 1
+      ints: 
+      strings: []
+      object0: {fileID: 1763339558}
+      object1: {fileID: 1585065577}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+    - eventType: 8
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 2
+      float0: 0
+      string0: Battle_RivalInitial
+      bool0: 0
+      bool1: 1
+      ints: 
+      strings: []
+      object0: {fileID: 208251132}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
   internalEventTrees: []
   demoEventTrees: []
-  engDialog: 
-  spanDialog: 
+  engDialog1: '{P, I''m bored . Let''s have a Pokemon\battle before you go see Dad!'
+  spanDialog1: '{P, estoy aburrido . Let''s have a\Pokemon battle before you go see
+    Dad!'
+  engDialog2: Wait! It's been a while. Let's quickly\review the basics of a Pokemon
+    battle.
+  spanDialog2: "\xA1Espera! It's been a while. Let's quickly\\review the basics of
+    a Pokemon battle."
+  engDialog3: 'Finally! Professor Mesquite, you talk\way too much. Let''s fight, {P! '
+  spanDialog3: "Finally! Professor Mesquite, t\xFA hablas\\way too much. Let's fight,
+    {P! "
+  engDialog4: Aw man, I lost. You've gotten so strong ,\{P. That's unfair!
+  spanDialog4: Aw man, I lost. You've gotten so fuerte ,\{P. That's unfair!
+  engDialog5: You're too impatient! {P, go see your\Dad at the school north of here.
+  spanDialog5: You're too impatient! {P, go see your\Dad at la escuela north of here.
 --- !u!4 &208251134
 Transform:
   m_ObjectHideFlags: 0
@@ -3535,12 +3774,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208251132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23, y: 0, z: -8}
+  m_LocalPosition: {x: -3, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1900034701}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 445146343}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &213805830
 GameObject:
@@ -7112,6 +7351,71 @@ Transform:
   m_Father: {fileID: 942326904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &452924191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1145816822623460, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 452924192}
+  - component: {fileID: 452924193}
+  m_Layer: 0
+  m_Name: Rival
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452924192
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4250422913918182, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452924191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &452924193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114733230039890142, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452924191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2765a15fb277bb4893b838316b8f307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueSprites:
+  - {fileID: 21300000, guid: 5d95bd1e299d02645acd6051176b83f8, type: 3}
+  trainerClass: 0
+  trainerName: Your sister
+  customPrizeMoney: 0
+  isFemale: 0
+  doubles: 0
+  trainerParty:
+  - ID: 393
+    level: 5
+    gender: 2
+    heldItem: 
+    ability: 0
+  battleBGM: {fileID: 8300000, guid: 55ed1fa0d101d1f4a9376c5263fcaa12, type: 3}
+  samplesLoopStart: 346500
+  victoryBGM: {fileID: 0}
+  victorySamplesLoopStart: 0
+  tightSpotDialog: []
+  playerVictoryDialog:
+  - '???: What? How could I get beaten \nby a scatterbrain like you?'
+  playerLossDialog:
+  - '???: Yeah, That''s right! \nYou should pay attention!'
 --- !u!1 &465663154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7791,15 +8095,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 549152097}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 632132362}
   - {fileID: 1329398879}
   - {fileID: 2010274974}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 717647205}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &549152099
 MonoBehaviour:
@@ -9005,6 +9309,76 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9fbae0f8ae3518448a63454eba53a254, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+--- !u!1 &629811287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 158474, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 629811288}
+  - component: {fileID: 629811289}
+  m_Layer: 0
+  m_Name: PawnReflection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629811288
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 431964, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629811287}
+  m_LocalRotation: {x: -0.000000115202326, y: 0.7071067, z: -0.7071068, w: -0.00000011520231}
+  m_LocalPosition: {x: 0, y: -0.29, z: 0.16}
+  m_LocalScale: {x: -1, y: 1.0999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &629811289
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21288028, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629811287}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a2ff070f25344434f89f1107ab9d10ca, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300016, guid: dcfce68ae36f7e746a0dffbb3f379583, type: 3}
+  m_Color: {r: 0.3137255, g: 0.74509805, b: 0.8392157, a: 0.5019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10566,6 +10940,11 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &717647205 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4708117160396476, guid: b29bc2dec560e9a408a7645a4e4855ed,
+    type: 2}
+  m_PrefabInternal: {fileID: 744803373}
 --- !u!1 &726839938
 GameObject:
   m_ObjectHideFlags: 0
@@ -18222,6 +18601,76 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7, y: 1, z: 5}
   m_Center: {x: 0.5, y: 0.5, z: -1.5}
+--- !u!1 &1200598098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 179648, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1200598099}
+  - component: {fileID: 1200598100}
+  m_Layer: 0
+  m_Name: PawnShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1200598099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 404962, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1200598098}
+  m_LocalRotation: {x: 0.42261833, y: 0, z: 0, w: 0.9063078}
+  m_LocalPosition: {x: -0.03, y: 0.15, z: -0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1200598100
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21268488, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1200598098}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 87608de5c7d14364db780ca28b363cfe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 25d40593b1ecc504092221212bb46639, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
 --- !u!1 &1202977517
 GameObject:
   m_ObjectHideFlags: 0
@@ -19435,1638 +19884,6 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
---- !u!1001 &1291090793
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 445146343}
-    m_Modifications:
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.size
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].strings.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].strings.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].strings.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].strings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].strings.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].strings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401802, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 154962, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: m_Name
-      value: Trigger_RivalBattle
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[0].eventType
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[0].string0
-      value: Battle_RivalInitial
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[0].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[1].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[1].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[1].string0
-      value: Rival_Initial
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[0].events.Array.data[1].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].int0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].int0
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].treeName
-      value: Rival Encounter
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].eventType
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].int0
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].object0
-      value: 
-      objectReference: {fileID: 1130760250}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].strings.Array.data[0]
-      value: '???: Ow!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].eventType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].strings.Array.data[0]
-      value: '???: Ow!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].object0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[0].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].strings.Array.data[0]
-      value: '???: Ow!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].runSimultaneously
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].eventType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].strings.Array.data[0]
-      value: '???: Oh I''m so-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].eventType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].object0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.data[0]
-      value: Wait, my brooch is broken! \You idiot, watch where you're going!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.data[1]
-      value: If you see someone in a hurry, you move.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.data[2]
-      value: Forget it, I'm late either way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.data[3]
-      value: 'Someone needs to teach you a lesson. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].eventType
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].strings.Array.data[0]
-      value: '???: Oh I''m so-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].strings.Array.data[1]
-      value: Wait, my brooch is broken! \You idiot, watch where you're going!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].strings.Array.data[2]
-      value: If you see someone in a hurry, you move. \Forget it, I'm late either
-        way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].strings.Array.data[3]
-      value: Someone needs to teach you a lesson. \Let's go!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].object0
-      value: 
-      objectReference: {fileID: 1344301170}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].treeName
-      value: Rival Beats You
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].eventType
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].float0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].string0
-      value: Battle_RivalInitial
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].eventType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].float0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].object0
-      value: 
-      objectReference: {fileID: 1130760250}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].runSimultaneously
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].int0
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].strings.Array.data[1]
-      value: Wait, my brooch is broken! \You idiot, watch where you're going!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].strings.Array.data[2]
-      value: If you see someone in a hurry, you move. \Forget it, I'm late either
-        way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].strings.Array.data[3]
-      value: Someone needs to teach you a lesson. \Let's go!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].strings.Array.data[1]
-      value: Wait, my brooch is broken! \You idiot, watch where you're going!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].strings.Array.data[2]
-      value: If you see someone in a hurry, you move. \Forget it, I'm late either
-        way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].strings.Array.data[3]
-      value: Someone needs to teach you a lesson. \Let's go!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].strings.Array.data[0]
-      value: Alright, now that I tought you why you \need to pay attention, I'll be
-        going.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].eventType
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].int0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].strings.Array.data[2]
-      value: If you see someone in a hurry, you move. \Forget it, I'm late either
-        way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].strings.Array.data[3]
-      value: Someone needs to teach you a lesson. \Let's go!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].sound
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].eventType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].strings.Array.data[1]
-      value: Agh! I don't have time for this, \just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].object0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].runSimultaneously
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].int0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].runSimultaneously
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].bool0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].object0
-      value: 
-      objectReference: {fileID: 1130760250}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].runSimultaneously
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[14].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].int0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[15].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].int0
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[16].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].eventType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[17].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].object0
-      value: 
-      objectReference: {fileID: 767925230}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[18].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].float0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].strings.Array.data[0]
-      value: Now that you've learned why you need \to pay attention, I'll be going.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].int0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].float0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].bool0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[2].runSimultaneously
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].float0
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[4].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[5].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[6].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[7].strings.Array.data[0]
-      value: Yeah, hopefully you'll pay attention now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[8].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[0].strings.Array.data[1]
-      value: I'm gonna need you to move though.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[1].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[2].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[3].runSimultaneously
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[4].dir
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[5].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[6].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].strings.Array.data[2]
-      value: If you see someone in a hurry, you move. \Forget it, I'm late either
-        way now.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[7].strings.Array.data[3]
-      value: Someone needs to teach you a lesson. \Let's go!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].float0
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].float0
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].string0
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].string0
-      value: Battle_RivalInitial
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[1].strings.Array.data[1]
-      value: I'm gonna need you to move though.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[3].runSimultaneously
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].float0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[2].events.Array.data[9].string0
-      value: Rival_Intital_Result
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[19].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[20].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[21].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[22].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[23].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[24].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[25].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[26].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[27].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].eventType
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].dir
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].int0
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].float0
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].strings.Array.data[0]
-      value: '???: What? But I-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].strings.Array.data[1]
-      value: Agh! Just get out of the way!
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].object0
-      value: 
-      objectReference: {fileID: 1291090794}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[28].sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 90055a0bb952fde4586a71609206b104, type: 3}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[13].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[12].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[11].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[10].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[9].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].dir
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403694, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-      propertyPath: bumpEventTrees.Array.data[1].events.Array.data[8].strings.Array.data[4]
-      value: Let's go!
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1291090794 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 154962, guid: 7359081f85606c944a0c3c3eebb4d28b, type: 2}
-  m_PrefabInternal: {fileID: 1291090793}
 --- !u!1 &1298820260
 GameObject:
   m_ObjectHideFlags: 0
@@ -26093,6 +24910,86 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1581143125}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1585065577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154478, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1585065578}
+  - component: {fileID: 1585065580}
+  - component: {fileID: 1585065579}
+  m_Layer: 0
+  m_Name: NPC_Rival
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585065578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1585065577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1689117587}
+  - {fileID: 1732913382}
+  - {fileID: 629811288}
+  - {fileID: 1200598099}
+  - {fileID: 1765624638}
+  - {fileID: 452924192}
+  m_Father: {fileID: 445146343}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585065579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114985112123822002, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1585065577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f736fc58a6ed37f41b1cfd3678d7c8c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  busyOnCall: 0
+  interactEventTrees: []
+  bumpEventTrees: []
+  internalEventTrees: []
+  demoEventTrees: []
+  english:
+  - video games
+  spanish:
+  - videojuegos
+--- !u!114 &1585065580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11460608, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1585065577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68232bb4811f104cae71d93bb2bc002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonID: 0
+  npcBehaviour: 0
+  npcSpriteName: npcRival_f
+  patrol: []
+  walkRange: {x: 0, y: 0}
+  trainerSurfing: 0
+  busy: 0
+  hitBox: {fileID: 0}
+  direction: 2
+  currentMap: {fileID: 0}
+  destinationMap: {fileID: 0}
 --- !u!1 &1588295316
 GameObject:
   m_ObjectHideFlags: 0
@@ -27643,6 +26540,76 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &1689117586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 159738, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1689117587}
+  - component: {fileID: 1689117588}
+  m_Layer: 0
+  m_Name: Pawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1689117587
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 441336, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689117586}
+  m_LocalRotation: {x: 0.42261833, y: 0, z: 0, w: 0.9063078}
+  m_LocalPosition: {x: 0, y: 0.1, z: -0.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1689117588
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21256192, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1689117586}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 87608de5c7d14364db780ca28b363cfe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300020, guid: 0450133ebdced8c428c6c3d78d9bc745, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
 --- !u!1 &1693917299
 GameObject:
   m_ObjectHideFlags: 0
@@ -28091,6 +27058,91 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1814093030}
+--- !u!1 &1732913381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 187646, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1732913382}
+  - component: {fileID: 1732913385}
+  - component: {fileID: 1732913384}
+  - component: {fileID: 1732913383}
+  m_Layer: 0
+  m_Name: NPC_Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732913382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 435930, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732913381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1732913383
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2309388, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732913381}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1732913384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6522364, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732913381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!33 &1732913385
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3368010, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732913381}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1735543752
 Prefab:
   m_ObjectHideFlags: 0
@@ -28574,7 +27626,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1763339558}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 834887649}
@@ -28597,16 +27649,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pokemonID: 0
-  npcBehaviour: 1
-  npcSpriteName: npcBlackBelt
+  npcBehaviour: 0
+  npcSpriteName: npcAdult_m
   patrol: []
   walkRange: {x: 0, y: 0}
   trainerSurfing: 0
   busy: 0
   hitBox: {fileID: 1337207833}
-  direction: 1
+  direction: 2
   currentMap: {fileID: 0}
   destinationMap: {fileID: 0}
+--- !u!1 &1765624637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 163520, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1765624638}
+  - component: {fileID: 1765624639}
+  m_Layer: 0
+  m_Name: Exclaim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1765624638
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 471556, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765624637}
+  m_LocalRotation: {x: 0.42261833, y: 0, z: 0, w: 0.9063078}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1585065578}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1765624639
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21239966, guid: 8fb405f25772dd442981110976c3eb17,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765624637}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2e77f870d229e8f40adb178fc6497286, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
 --- !u!1 &1767057866
 GameObject:
   m_ObjectHideFlags: 0
@@ -29848,8 +28970,8 @@ MonoBehaviour:
   bumpEventTrees: []
   internalEventTrees: []
   demoEventTrees: []
-  engDialog: Your dad? He's in the school to the right\of this building.
-  spanDialog: Your dad? He's in la escuela to the right\of this building.
+  engDialog: Your Dad? He's in the school to the right\of this building.
+  spanDialog: Your Dad? He's in la escuela to the right\of this building.
 --- !u!114 &1846060491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34731,52 +33853,6 @@ MonoBehaviour:
   examineText: 
   lockedExamineText: 
   fadeTex: {fileID: 0}
---- !u!1001 &2031633218
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 445146343}
-    m_Modifications:
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -8
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -7
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 475418, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 154478, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-      propertyPath: m_Name
-      value: NPC_Rival
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8fb405f25772dd442981110976c3eb17, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &2033703018
 GameObject:
   m_ObjectHideFlags: 0

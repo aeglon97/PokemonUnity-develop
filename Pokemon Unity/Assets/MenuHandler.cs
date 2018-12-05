@@ -32,6 +32,7 @@ public class MenuHandler : MonoBehaviour {
         foreach (KeyValuePair<string, string> entry in dictHandler.getDict())
         {
             buttons[i].GetComponent<Button>().gameObject.SetActive(true);
+            buttons[i].GetComponentInChildren<Text>().text = entry.Value;
             //buttons[i].GetComponent<Button>().onClick.AddListener(() => toggleLang(false, entry, i));
             i++;
         }        
@@ -39,8 +40,7 @@ public class MenuHandler : MonoBehaviour {
 
     public void toggleLang(bool isEnglish, KeyValuePair<string, string> entry, int i)
     {
-        buttons[i].GetComponentInChildren<Text>().text = "fuck";
-        Debug.Log("yes");
+        
         if (!isEnglish)
         {
             //text.text = entry.Key;

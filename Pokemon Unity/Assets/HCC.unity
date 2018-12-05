@@ -21450,8 +21450,8 @@ MonoBehaviour:
       sprite: {fileID: 0}
   internalEventTrees: []
   demoEventTrees: []
-  engDialog: Wait! You can't go out there yet, your\sister wants to battle!
-  spanDialog: Wait! You can't go out there yet, your\hermana wants to battle!
+  engDialog: Wait! You can't go out there yet, your\sister wants to battle.
+  spanDialog: "\xA1Espera! You can't go out there yet, your\\sister wants to battle."
 --- !u!4 &921985396 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b45e3c8958de20045adcb5d2acb36017, type: 2}
@@ -50022,10 +50022,6 @@ Prefab:
     - target: {fileID: 4708117160396476, guid: b29bc2dec560e9a408a7645a4e4855ed, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1224088399860148, guid: b29bc2dec560e9a408a7645a4e4855ed, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b29bc2dec560e9a408a7645a4e4855ed, type: 2}

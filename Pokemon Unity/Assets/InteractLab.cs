@@ -8,6 +8,7 @@ using System.Collections.Generic;
 public class InteractLab : MonoBehaviour
 {
     public bool busyOnCall = true;
+    public int counter = 0;
 
     public CustomEventTree[] interactEventTrees;
     public CustomEventTree[] bumpEventTrees;
@@ -24,16 +25,26 @@ public class InteractLab : MonoBehaviour
     private int eventTreeIndex = 0;
     private int currentEventIndex = 0;
 
-    public static string[] english;
-    public static string[] spanish;
-    public string engDialog;
-    public string spanDialog;
+    /*public static string[] english1;
+    public static string[] spanish1;
+    public static string[] english2;
+    public static string[] spanish2;
+    public static string[] english3;
+    public static string[] spanish3;*/
+
+
+
     public string engDialog1;
     public string spanDialog1;
     public string engDialog2;
     public string spanDialog2;
     public string engDialog3;
     public string spanDialog3;
+    public string engDialog4;
+    public string spanDialog4;
+    public string engDialog5;
+    public string spanDialog5;
+
     private bool hasSwitched = false;
 
 
@@ -273,59 +284,362 @@ public class InteractLab : MonoBehaviour
             case (CustomEventDetails.CustomEventType.Dialog):
                 string thisEng = "";
                 string thisSpan = "";
-                foreach (string word in dictHandler.getEnglish())
-                {
-                    if (engDialog.Contains(word))
-                    {
-                        thisEng = word;
-                    }
-                }
 
-                foreach (string word in dictHandler.getSpanish())
+                switch (counter)
                 {
-                    if (spanDialog.Contains(word))
-                    {
-                        thisSpan = word;
-                    }
-                }
-
-                Dialog.drawDialogBox();
-
-                //for (int i = 0; i < english.Length; i++)
-                //{
-                if (dictHandler.getDict().ContainsKey(thisEng))
-                {
-                    yield return StartCoroutine(Dialog.drawText(spanDialog));
-                    while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                    {
-                        yield return null;
-                    }
-                    Dialog.undrawDialogBox();
-                }
-                else
-                {
-                    yield return StartCoroutine(Dialog.drawText(engDialog));
-                    while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                    {
-                        yield return null;
-                    }
-                    Dialog.undrawDialogBox();
-                    Dialog.drawDialogBox();
-                    yield return StartCoroutine(Dialog.drawText(spanDialog));
-                    while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
-                    {
-                        yield return null;
-                    }
-                    Dialog.undrawDialogBox();
-
-                    for (int i = 0; i < dictHandler.getEnglish().Length; i++)
-                    {
-                        if (!dictHandler.getDict().ContainsKey(thisEng))
+                    case 0:
+                        foreach (string word in dictHandler.getEnglish())
                         {
-                            dictHandler.addToDict(thisEng, thisSpan);
+                            if (engDialog1.Contains(word))
+                            {
+                                thisEng = word;
+                            }
                         }
-                    }
+
+                        foreach (string word in dictHandler.getSpanish())
+                        {
+                            if (spanDialog1.Contains(word))
+                            {
+                                thisSpan = word;
+                            }
+                        }
+
+                        Dialog.drawDialogBox();
+
+                        //for (int i = 0; i < english.Length; i++)
+                        //{
+                        if (dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            yield return StartCoroutine(Dialog.drawText(spanDialog1));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                        }
+                        else
+                        {
+                            yield return StartCoroutine(Dialog.drawText(engDialog1));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                            Dialog.drawDialogBox();
+                            yield return StartCoroutine(Dialog.drawText(spanDialog1));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+
+                            for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                            {
+                                if (!dictHandler.getDict().ContainsKey(thisEng))
+                                {
+                                    dictHandler.addToDict(thisEng, thisSpan);
+                                }
+                            }
+                        }
+                        counter++;
+                        break;
+
+                    //2
+                    case 1:
+                        foreach (string word in dictHandler.getEnglish())
+                        {
+                            if (engDialog2.Contains(word))
+                            {
+                                thisEng = word;
+                            }
+                        }
+
+                        foreach (string word in dictHandler.getSpanish())
+                        {
+                            if (spanDialog2.Contains(word))
+                            {
+                                thisSpan = word;
+                            }
+                        }
+
+                        Dialog.drawDialogBox();
+
+                        //for (int i = 0; i < english.Length; i++)
+                        //{
+                        if (dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            yield return StartCoroutine(Dialog.drawText(spanDialog2));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                        }
+                        else
+                        {
+                            yield return StartCoroutine(Dialog.drawText(engDialog2));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                            Dialog.drawDialogBox();
+                            yield return StartCoroutine(Dialog.drawText(spanDialog2));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+
+                            for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                            {
+                                if (!dictHandler.getDict().ContainsKey(thisEng))
+                                {
+                                    dictHandler.addToDict(thisEng, thisSpan);
+                                }
+                            }
+                        }
+                        counter++;
+                        break;
+
+                    //3
+                    case 2:
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "In a trainer battle, you will have a few\ndifferent options. The goal is to lower your");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "opponent's hit points to 0. Once you or");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "your opponent run out of Pokemon, the last");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "one standing is the winner.");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        //To attack, select the “FIGHT” button and choose an attack. Some lower enemy hit points and some put the opponent at a disadvantage.
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "To attack, select the \"FIGHT\" button and\nchoose an attack. Some lower enemy health,");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "some put the opponent at a disadvantage.");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        //To heal, select “BAG” and choose an item to heal your current Pokémon. Descriptions will be provided within the menu itself.
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "To heal, select \"BAG\" and choose an item to\nheal your current Pokemon. Descriptions");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "of items will be provided in the menu itself.");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        //To switch the Pokémon you are currently using, select Pokémon and choose which one you would like to send out.
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "To switch your current Pokemon, select\nPOKEMON and choose the one you'd like to ");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "send out.");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        //You cannot run from a Trainer battle, so don’t use this one unless a wild Pokémon attacks you?��Phew, that was a mouthful. Anyway, feel free to begin! 
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "You can't run from a Trainer battle, so do\nnot use this unless a wild Pokemon attacks");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+                        yield return Dialog.StartCoroutine("scrollText", 1.0f);
+
+                        yield return Dialog.StartCoroutine("drawTextSilent", "you.");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        Dialog.drawDialogBox();
+                        yield return Dialog.StartCoroutine("drawText", "Phew, that was a mouthful. Anyway, feel\nfree to begin!");
+                        while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back")) { yield return null; }
+
+                        counter++;
+                        break;
+
+                    //4
+                    case 3:
+                        foreach (string word in dictHandler.getEnglish())
+                        {
+                            if (engDialog3.Contains(word))
+                            {
+                                thisEng = word;
+                            }
+                        }
+
+                        foreach (string word in dictHandler.getSpanish())
+                        {
+                            if (spanDialog3.Contains(word))
+                            {
+                                thisSpan = word;
+                            }
+                        }
+
+                        Dialog.drawDialogBox();
+
+                        //for (int i = 0; i < english.Length; i++)
+                        //{
+                        if (dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            yield return StartCoroutine(Dialog.drawText(spanDialog3));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                        }
+                        else
+                        {
+                            yield return StartCoroutine(Dialog.drawText(engDialog3));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                            Dialog.drawDialogBox();
+                            yield return StartCoroutine(Dialog.drawText(spanDialog3));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+
+                            for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                            {
+                                if (!dictHandler.getDict().ContainsKey(thisEng))
+                                {
+                                    dictHandler.addToDict(thisEng, thisSpan);
+                                }
+                            }
+                        }
+                        counter++;
+                        break;
+
+                    //5
+                    case 4:
+                        foreach (string word in dictHandler.getEnglish())
+                        {
+                            if (engDialog4.Contains(word))
+                            {
+                                thisEng = word;
+                            }
+                        }
+
+                        foreach (string word in dictHandler.getSpanish())
+                        {
+                            if (spanDialog4.Contains(word))
+                            {
+                                thisSpan = word;
+                            }
+                        }
+
+                        Dialog.drawDialogBox();
+
+                        //for (int i = 0; i < english.Length; i++)
+                        //{
+                        if (dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            yield return StartCoroutine(Dialog.drawText(spanDialog4));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                        }
+                        else
+                        {
+                            yield return StartCoroutine(Dialog.drawText(engDialog4));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                            Dialog.drawDialogBox();
+                            yield return StartCoroutine(Dialog.drawText(spanDialog4));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+
+                            for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                            {
+                                if (!dictHandler.getDict().ContainsKey(thisEng))
+                                {
+                                    dictHandler.addToDict(thisEng, thisSpan);
+                                }
+                            }
+                        }
+                        counter++;
+                        break;
+
+                    case 5:
+                        foreach (string word in dictHandler.getEnglish())
+                        {
+                            if (engDialog5.Contains(word))
+                            {
+                                thisEng = word;
+                            }
+                        }
+
+                        foreach (string word in dictHandler.getSpanish())
+                        {
+                            if (spanDialog5.Contains(word))
+                            {
+                                thisSpan = word;
+                            }
+                        }
+
+                        Dialog.drawDialogBox();
+
+                        //for (int i = 0; i < english.Length; i++)
+                        //{
+                        if (dictHandler.getDict().ContainsKey(thisEng))
+                        {
+                            yield return StartCoroutine(Dialog.drawText(spanDialog5));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                        }
+                        else
+                        {
+                            yield return StartCoroutine(Dialog.drawText(engDialog5));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+                            Dialog.drawDialogBox();
+                            yield return StartCoroutine(Dialog.drawText(spanDialog5));
+                            while (!Input.GetButtonDown("Select") && !Input.GetButtonDown("Back"))
+                            {
+                                yield return null;
+                            }
+                            Dialog.undrawDialogBox();
+
+                            for (int i = 0; i < dictHandler.getEnglish().Length; i++)
+                            {
+                                if (!dictHandler.getDict().ContainsKey(thisEng))
+                                {
+                                    dictHandler.addToDict(thisEng, thisSpan);
+                                }
+                            }
+                        }
+                        counter++;
+                        break;
                 }
+
+
                 print("Dictionary size: ");
                 print(dictHandler.getDict().Count);
                 print("Dictionary:");
@@ -840,3 +1154,4 @@ public class InteractLab : MonoBehaviour
         currentEventIndex = -1;
     }
 }
+ 
