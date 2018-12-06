@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475418}
   - component: {fileID: 11460608}
-  - component: {fileID: 114985112123822002}
+  - component: {fileID: 114638064167231816}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8, y: 0, z: -7}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 441336}
@@ -179,7 +179,6 @@ Transform:
   - {fileID: 431964}
   - {fileID: 404962}
   - {fileID: 471556}
-  - {fileID: 4033048595556828}
   - {fileID: 4250422913918182}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -248,13 +247,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pokemonID: 0
   npcBehaviour: 0
-  npcSpriteName: npcLass
+  npcSpriteName: npcRival_f
   patrol: []
   walkRange: {x: 0, y: 0}
   trainerSurfing: 0
   busy: 0
   hitBox: {fileID: 0}
-  direction: 0
+  direction: 2
   currentMap: {fileID: 0}
   destinationMap: {fileID: 0}
 --- !u!212 &21239966
@@ -329,7 +328,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300016, guid: dcfce68ae36f7e746a0dffbb3f379583, type: 3}
+  m_Sprite: {fileID: 21300016, guid: 0450133ebdced8c428c6c3d78d9bc745, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -409,7 +408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300020, guid: e83e2ea7eb8e9a64a949e828c7749475, type: 3}
+  m_Sprite: {fileID: 21300016, guid: dcfce68ae36f7e746a0dffbb3f379583, type: 3}
   m_Color: {r: 0.3137255, g: 0.74509805, b: 0.8392157, a: 0.5019608}
   m_FlipX: 0
   m_FlipY: 0
@@ -468,35 +467,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1597560043125804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4033048595556828}
-  - component: {fileID: 114301208010529986}
-  m_Layer: 0
-  m_Name: Rival
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4033048595556828
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1597560043125804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 475418}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4250422913918182
 Transform:
   m_ObjectHideFlags: 1
@@ -508,41 +478,44 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 475418}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114301208010529986
+--- !u!114 &114638064167231816
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1597560043125804}
+  m_GameObject: {fileID: 154478}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2765a15fb277bb4893b838316b8f307, type: 3}
+  m_Script: {fileID: 11500000, guid: 3aafe9398a95f1949b7a14b90ad7b498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uniqueSprites:
-  - {fileID: 21300000, guid: 5d95bd1e299d02645acd6051176b83f8, type: 3}
-  trainerClass: 0
-  trainerName: 
-  customPrizeMoney: 0
-  isFemale: 0
-  doubles: 0
-  trainerParty:
-  - ID: 393
-    level: 5
-    gender: 2
-    heldItem: 
-    ability: 0
-  battleBGM: {fileID: 8300000, guid: 55ed1fa0d101d1f4a9376c5263fcaa12, type: 3}
-  samplesLoopStart: 346500
-  victoryBGM: {fileID: 0}
-  victorySamplesLoopStart: 0
-  tightSpotDialog: []
-  playerVictoryDialog:
-  - '???: What? How could I get beaten \nby a scatterbrain like you?'
-  playerLossDialog:
-  - '???: Yeah, That''s right! \nYou should pay attention!'
+  busyOnCall: 1
+  interactEventTrees:
+  - treeName: 
+    events:
+    - eventType: 3
+      dir: 0
+      logic: 0
+      smOptions: 0
+      int0: 0
+      float0: 0
+      string0: 
+      bool0: 0
+      bool1: 0
+      ints: 
+      strings: []
+      object0: {fileID: 0}
+      object1: {fileID: 0}
+      sound: {fileID: 0}
+      runSimultaneously: 0
+      sprite: {fileID: 0}
+  bumpEventTrees: []
+  internalEventTrees: []
+  demoEventTrees: []
+  engDialog: Can you tell dad I said hi?
+  spanDialog: "Can you tell pap\xE1 I said hi?"
 --- !u!114 &114733230039890142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -557,7 +530,7 @@ MonoBehaviour:
   uniqueSprites:
   - {fileID: 21300000, guid: 5d95bd1e299d02645acd6051176b83f8, type: 3}
   trainerClass: 0
-  trainerName: 
+  trainerName: Your sister
   customPrizeMoney: 0
   isFemale: 0
   doubles: 0
@@ -576,23 +549,3 @@ MonoBehaviour:
   - '???: What? How could I get beaten \nby a scatterbrain like you?'
   playerLossDialog:
   - '???: Yeah, That''s right! \nYou should pay attention!'
---- !u!114 &114985112123822002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 154478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f736fc58a6ed37f41b1cfd3678d7c8c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  busyOnCall: 0
-  interactEventTrees: []
-  bumpEventTrees: []
-  internalEventTrees: []
-  demoEventTrees: []
-  english:
-  - video games
-  spanish:
-  - videojuegos

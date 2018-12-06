@@ -22721,7 +22721,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 985692733}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -10, y: -1, z: -11}
+  m_LocalPosition: {x: -10.5, y: -1, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 160855197}
@@ -23071,7 +23071,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300020, guid: 0450133ebdced8c428c6c3d78d9bc745, type: 3}
+  m_Sprite: {fileID: 21300016, guid: dcfce68ae36f7e746a0dffbb3f379583, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24905,7 +24905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pokemonID: 0
   npcBehaviour: 0
-  npcSpriteName: npcRival_f
+  npcSpriteName: npcLass
   patrol: []
   walkRange: {x: 0, y: 0}
   trainerSurfing: 0
@@ -46588,7 +46588,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1965136020}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -20.15, y: 0, z: 48.17}
+  m_LocalPosition: {x: -21, y: 0, z: 48.17}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1467665957}
