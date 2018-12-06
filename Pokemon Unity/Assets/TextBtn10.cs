@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextBtn : MonoBehaviour {
+public class TextBtn10 : MonoBehaviour
+{
     public Text myText = null;
     public int counter = 0;
     public int index;
@@ -17,11 +18,11 @@ public class TextBtn : MonoBehaviour {
         {
             dictHandler = transform.GetComponent<DictionaryHandler>();
             myText.text = dictHandler.dictSpan[index];
-        }  
+        }
     }
     public void ChangeText()
     {
-        
+
         counter++;
         if (counter % 2 == 1)
         {

@@ -318,11 +318,14 @@ public class InteractNPC : MonoBehaviour
                         if (!dictHandler.getDict().ContainsKey(thisEng))
                         {
                             dictHandler.addToDict(thisEng, thisSpan);
+                            dictHandler.addToEng(thisEng);
+                            dictHandler.addToSpan(thisSpan);
                         }
                     } 
                 }
                 print("Dictionary size: ");
-                print(dictHandler.getDict().Count);
+                print(dictHandler.dictEng.Count);
+                //print(dictHandler.getDict().Count);
                 print("Dictionary:");
                 dictHandler.printDict();
                 break;

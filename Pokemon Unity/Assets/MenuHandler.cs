@@ -28,14 +28,18 @@ public class MenuHandler : MonoBehaviour {
             Canvas.gameObject.SetActive(open);
         }
 
-        int i = 0;
-        foreach (KeyValuePair<string, string> entry in dictHandler.getDict())
+        //int i = 0;
+        for (int i = 0; i < dictHandler.getDictEng().Count; i++)
         {
             buttons[i].GetComponent<Button>().gameObject.SetActive(true);
-            buttons[i].GetComponentInChildren<Text>().text = entry.Value;
+        }
+        /*foreach (KeyValuePair<string, string> entry in dictHandler.getDict())
+        {
+            buttons[i].GetComponent<Button>().gameObject.SetActive(true);
+            //buttons[i].GetComponentInChildren<Text>().text = entry.Value;
             //buttons[i].GetComponent<Button>().onClick.AddListener(() => toggleLang(false, entry, i));
             i++;
-        }        
+        }  */      
     }
 
     public void toggleLang(bool isEnglish, KeyValuePair<string, string> entry, int i)

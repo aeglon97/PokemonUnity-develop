@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DictionaryHandler : MonoBehaviour {
+    public List<string> dictEng = new List<string>();
+    public List<string> dictSpan = new List<string>();
 
     [SerializeField]
     public Dictionary<string, string> dict = new Dictionary<string, string>();
@@ -16,6 +18,15 @@ public class DictionaryHandler : MonoBehaviour {
                                 "papá", "¿cómo estás?", "un maestro", "el fin", "Gracias", "estoy aburrido", "¡Espera!", "tú hablas",
                                 "fuerte"};
 
+    public void addToEng(string eng)
+    {
+        dictEng.Add(eng);
+    }
+
+    public void addToSpan(string span)
+    {
+        dictSpan.Add(span);
+    }
 
     public void addToDict(string key, string value)
     {
@@ -42,6 +53,17 @@ public class DictionaryHandler : MonoBehaviour {
     {
         return this.spanish;
     }
+
+    public List<string> getDictEng()
+    {
+        return this.dictEng;
+    }
+
+    public List<string> getDictSpan()
+    {
+        return this.dictSpan;
+    }
+
 	// Update is called once per frame
 	void Update () {
 		

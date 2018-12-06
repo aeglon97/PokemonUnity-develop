@@ -331,6 +331,8 @@ public class InteractDad : MonoBehaviour
                         if (!dictHandler.getDict().ContainsKey(thisEng))
                         {
                             dictHandler.addToDict(thisEng, thisSpan);
+                            dictHandler.addToEng(thisEng);
+                            dictHandler.addToSpan(thisSpan);
                         }
                     }
                 }
@@ -386,6 +388,8 @@ public class InteractDad : MonoBehaviour
                         if (!dictHandler.getDict().ContainsKey(thisEng))
                         {
                             dictHandler.addToDict(thisEng, thisSpan);
+                            dictHandler.addToEng(thisEng);
+                            dictHandler.addToSpan(thisSpan);
                         }
                     }
                 }
@@ -441,6 +445,8 @@ public class InteractDad : MonoBehaviour
                         if (!dictHandler.getDict().ContainsKey(thisEng))
                         {
                             dictHandler.addToDict(thisEng, thisSpan);
+                            dictHandler.addToEng(thisEng);
+                            dictHandler.addToSpan(thisSpan);
                         }
                     }
                 }
@@ -496,6 +502,8 @@ public class InteractDad : MonoBehaviour
                         if (!dictHandler.getDict().ContainsKey(thisEng))
                         {
                             dictHandler.addToDict(thisEng, thisSpan);
+                            dictHandler.addToEng(thisEng);
+                            dictHandler.addToSpan(thisSpan);
                         }
                     }
                 }

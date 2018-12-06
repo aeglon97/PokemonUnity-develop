@@ -116,6 +116,8 @@ public class InteractObject : MonoBehaviour
                     if (!dictHandler.getDict().ContainsKey(thisEng))
                     {
                         dictHandler.addToDict(thisEng, thisSpan);
+                        dictHandler.addToEng(thisEng);
+                        dictHandler.addToSpan(thisSpan);
                     }
                 }
             }
