@@ -7,22 +7,30 @@ public class TextBtn : MonoBehaviour {
     public Text myText = null;
     public int counter = 0;
     private DictionaryHandler dictHandler;
+    Text thisText;
 
     public void Start()
     {
-
     }
     public void ChangeText()
     {
-        
-        counter++;
-        if (counter % 2 == 1)
+        foreach (KeyValuePair<string, string> kvp in dictHandler.getDict())
         {
-            myText.text = "Pause";
-        }
-        else
-        {
-            myText.text = "Start";
+            Debug.Log(kvp.Key);
+            Debug.Log(kvp.Value);
+            if (kvp.Value == myText.text)
+            {
+                counter++;
+                if (counter % 2 == 1)
+                {
+                    myText.text = kvp.Key;
+                }
+                else
+                {
+                    myText.text = kvp.Value;
+                }
+            }
+            
         }
     }
 }
