@@ -4,3 +4,5 @@ Creation of a language-immersion game using the Pokemon Unity fan engine.
 1) download Unity 5.x
 2) Open Project
 3) Select "PokemonUnity-develop"
+
+Reports of user-testing group are given in PDF file.
