@@ -11,7 +11,7 @@ Throughout gameplay, users would stumble across new Spanish words through contex
 Reports of user-testing groups are given in the `report.pdf` file.
 
 ## How to play
-1. Download Unity 5.x
+1. Download Unity 5.6.1
 2. After launching, select 'Open Project'
 3. Select 'PokemonUnity-develop'
 4. Press the 'Play' button at the top of the screen.
