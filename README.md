@@ -1,4 +1,4 @@
-# PokemonUnity-develop
+# Digitalizing Language Immersion
 Creation of a language-immersion game using the Pokemon Unity fan engine.
 
 ## Motivation
